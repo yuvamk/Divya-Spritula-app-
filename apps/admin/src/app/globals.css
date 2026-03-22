@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-noto-serif: 'Noto Serif', serif;
+}
+
+body {
+  background-color: #faf9f6;
+  color: #1a1c1a;
+  font-family: var(--font-inter);
+}
+
+.sacred-arch {
+  border-top-left-radius: 48px;
+  border-top-right-radius: 48px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.ember-gradient {
+  background: radial-gradient(circle at center, #cd462b, #ab2e15);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}

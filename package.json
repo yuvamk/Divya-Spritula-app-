@@ -1,0 +1,24 @@
+{
+  "name": "divya-monorepo",
+  "private": true,
+  "theme": "Divya — Digital Mandir Platform",
+  "workspaces": [
+    "apps/*",
+    "supabase/functions/*"
+  ],
+  "scripts": {
+    "mobile": "npm run --workspace=apps/mobile",
+    "admin": "npm run --workspace=apps/admin"
+  },
+  "devDependencies": {
+    "@babel/helper-plugin-utils": "^7.28.6",
+    "@babel/plugin-proposal-class-properties": "^7.18.6",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
+    "@babel/plugin-proposal-numeric-separator": "^7.18.6",
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "@babel/plugin-transform-optional-chaining": "^7.28.6",
+    "react-native-worklets": "npm:react-native-worklets-core@^1.6.3",
+    "react-native-worklets-core": "^1.6.3"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "@divya/admin",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "15.x",
+    "react": "18.x",
+    "react-dom": "18.x",
+    "oracledb": "6.x",
+    "@supabase/supabase-js": "2.x",
+    "recharts": "2.x",
+    "@tremor/react": "3.x",
+    "@google/generative-ai": "0.21.x",
+    "lucide-react": "latest",
+    "clsx": "latest",
+    "tailwind-merge": "latest"
+  },
+  "devDependencies": {
+    "typescript": "5.x",
+    "@types/react": "18.x",
+    "@types/node": "20.x",
+    "tailwindcss": "4.x"
+  }
+}
